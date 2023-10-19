@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: rgb(171, 239, 11) ;
+    width: 100%;
+    height: 50px;
+}
+
+header h2{
+    color: rgb(75, 31, 116);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+h2:hover{
+    color: blanchedalmond;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.row{
+    background-color: rgb(34, 121, 121);
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
+}
+.col{
+    background-color: darkcyan;
+    width: 300px;
+    height: 400px;
+    margin-left: 10px;
+
+}
+
+img{
+    height: 200px;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+h4,h5{
+    text-align: center;
+    color: cornsilk;
+}
+
+#btn{
+    color: rgb(64, 31, 94);
+    background-color: rgb(162, 102, 218);
+    padding: 5px;
+    margin-left: 50px;
+    
+}
+#btn :hover{
+    color: aqua;
+    background-color: bisque;
+}
+
+footer,p{
+    background-color: rgb(12, 231, 74);
+    width: 100%;
+    height: 50px;
+    color: rgb(72, 12, 225);
+
+}
+h3{
+    color: rgb(86, 19, 148);
+    text-align: center;
+}
+.banner{
+    background-image: url(https://t4.ftcdn.net/jpg/05/44/54/69/360_F_544546950_Xi80k2ppry7rqKQQYsSNVmuaAILUiki9.jpg);
+    width: 100%;
+    height: 300px;
+}
